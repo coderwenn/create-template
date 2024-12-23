@@ -225,7 +225,7 @@ async function init() {
     }
 
     const cdProjectName = path.relative(process.cwd(), root);
-    console.log(`\nDone. Now run:\n`);
+    console.log(`\nDone. Now run:\n`);
 
     if (root !== process.cwd()) {
       console.log(`cd ${cdProjectName}`);
